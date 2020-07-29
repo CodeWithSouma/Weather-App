@@ -44,7 +44,7 @@ function showError(error){
 // get weather from API and initiliaze the weather object
 function getWeather(latitude,longitude){
     // fetch data from this url and pass paramenter latitude and longitude
-    let api = `http://api.openweathermap.org/data/2.5/weather?lat=${longitude}&lon=${latitude}&appid=${key}`;
+    let api = `https://api.openweathermap.org/data/2.5/weather?lat=${longitude}&lon=${latitude}&appid=${key}`;
 
     // let api = `http://api.openweathermap.org/data/2.5/weather?lat=22.89&lon=87.7910&appid=${key}`;//this is for testing purpuse you can delete this line 
     
